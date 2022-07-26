@@ -1,3 +1,5 @@
 # Basketball-scoreboard
 
-mybasketball-scoreboard.netlify.app
+https://mybasketball-scoreboard.netlify.app
+
+)
