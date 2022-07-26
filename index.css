@@ -1,0 +1,182 @@
+@font-face {
+  font-family: 'Cursed Timer';
+  src: url(font/CursedTimerUlil-Aznm.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  width: 575px;
+  height: 400px;
+  background: linear-gradient(
+    180deg,
+    hsla(205, 46%, 30%, 1) 53%,
+    hsla(260, 29%, 36%, 1) 99%
+  );
+}
+
+.home h3 {
+  position: absolute;
+  width: 149px;
+  height: 36px;
+  font-family: 'Verdana';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 36px;
+  color: #eee;
+  text-align: center;
+  left: 85px;
+  top: 28px;
+}
+
+.home h4 {
+  position: absolute;
+  width: 155px;
+  height: 120px;
+  left: 90px;
+  top: 15px;
+  font-family: 'Cursed Timer';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 127px;
+  text-align: center;
+  color: #f94f6d;
+  background: #000;
+  border-radius: 5px;
+}
+
+.guest h3 {
+  position: absolute;
+  width: 149px;
+  height: 36px;
+  left: 340px;
+  top: 28px;
+  font-family: 'Verdana';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 36px;
+  text-align: center;
+  color: #eee;
+}
+
+.guest h4 {
+  position: absolute;
+  width: 155px;
+  height: 120px;
+  left: 335px;
+  top: 15px;
+  font-family: 'Cursed Timer';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 127px;
+  text-align: center;
+  color: #f94f6d;
+  background: #000;
+  border-radius: 5px;
+}
+
+.count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #9aabd8;
+  border-radius: 5px;
+  color: #9aabd8;
+  font-family: 'Cursed Timer';
+  cursor: pointer;
+}
+
+.home1 {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: 82px;
+  top: 271px;
+  margin-top: 26px;
+  padding: 9px 10px 9px 7px;
+}
+
+.home2 {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 271px;
+  left: 136px;
+  margin-top: 26px;
+  padding: 9px 10px 9px 7px;
+}
+
+.home3 {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 271px;
+  left: 192px;
+  margin-top: 26px;
+  padding: 9px 10px 9px 7px;
+}
+
+.guest1 {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 271px;
+  left: 337px;
+  margin-top: 26px;
+  padding: 9px 10px 9px 7px;
+}
+
+.guest2 {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 271px;
+  left: 391px;
+  margin-top: 26px;
+  padding: 9px 10px 9px 7px;
+}
+
+.guest3 {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 271px;
+  left: 447px;
+  margin-top: 26px;
+  padding: 9px 10px 9px 7px;
+}
+
+.btn-container {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 5px auto;
+  font-family: 'Cursed Timer';
+}
+
+button {
+  background: #edede9;
+  color: #000;
+  border: none;
+  border-radius: 2em;
+  padding: 5px 10px;
+}
+
+.timer {
+  display: flex;
+}
