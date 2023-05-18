@@ -1,43 +1,46 @@
 let addEl = document.getElementById('add-el');
 let guestEl = document.getElementById('guest-el');
 
-let score = 0;
+let scoreHome = 0;
 
 // Home
 function add_1() {
-  score += 1;
-  addEl.textContent = score;
+  scoreHome += 1;
+  addEl.textContent = scoreHome;
 }
 
 function add_2() {
-  score += 2;
-  addEl.textContent = score;
+  scoreHome += 2;
+  addEl.textContent = scoreHome;
 }
 
 function add_3() {
-  score += 3;
-  addEl.textContent = score;
+  scoreHome += 3;
+  addEl.textContent = scoreHome;
 }
 
 // Guests
 
+let scoreGuest = 0;
+
 function guest_add_1() {
-  score += 1;
-  guestEl.textContent = score;
+  scoreGuest += 1;
+  guestEl.textContent = scoreGuest;
 }
 
 function guest_add_2() {
-  score += 2;
-  guestEl.textContent = score;
+  scoreGuest += 2;
+  guestEl.textContent = scoreGuest;
 }
 
 function guest_add_3() {
-  score += 3;
-  guestEl.textContent = score;
+  scoreGuest += 3;
+  guestEl.textContent = scoreGuest;
 }
 
 function newGame() {
-  score = 0;
-  addEl.textContent = 0;
-  guestEl.textContent = 0;
+  scoreHome = 0;
+  scoreGuest = 0;
+  addEl.textContent = ScoreHome;
+  guestEl.textContent = ScoreGuest;
 }
