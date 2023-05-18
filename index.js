@@ -41,6 +41,6 @@ function guest_add_3() {
 function newGame() {
   scoreHome = 0;
   scoreGuest = 0;
-  addEl.textContent = ScoreHome;
-  guestEl.textContent = ScoreGuest;
+  addEl.textContent = scoreHome;
+  guestEl.textContent = scoreGuest;
 }
